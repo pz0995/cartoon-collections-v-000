@@ -3,7 +3,7 @@ def roll_call_dwarves# code an argument here
     puts "#{dwarves}"
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
     planeteer_calls = ["earth", "wind", "fire", "water", "heart"].titleize
 end
 
@@ -13,5 +13,5 @@ def long_planeteer_calls# code an argument here
 end
 
 def find_the_cheese# code an argument here
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  [("cheddar","gouda","camembert")].any?
 end
