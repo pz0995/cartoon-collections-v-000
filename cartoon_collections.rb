@@ -1,12 +1,14 @@
 def roll_call_dwarves# code an argument here
     dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-    puts "#{dwarves}"
+    count = 0
+    dwarves {|dwarves| count += dwarf.length}
+    puts "#{dwarves < 4 }"
 end
 
-def summon_captain_planet(planeteer_calls)
-    planeteer_calls = ["earth", "wind", "fire", "water", "heart"].titleize
-planeteer_calls =fruits.map do |calls|
-calls.upcase
+def summon_captain_planet?(planeteer_calls)
+    planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+    planeteer_calls =fruits.map do |calls|
+    calls.capitalize
 end
 
 def long_planeteer_calls# code an argument here
