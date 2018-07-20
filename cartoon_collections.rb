@@ -13,5 +13,5 @@ def long_planeteer_calls# code an argument here
 end
 
 def find_the_cheese# code an argument here
-  [("cheddar","gouda","camembert")].any?
+  [("cheddar","gouda","camembert")].include?
 end
