@@ -1,6 +1,8 @@
 def roll_call_dwarves# code an argument here
     dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
+       names.each do |name|
+      end
+    </ol>
 end
 
 def summon_captain_planet?(planeteer_calls)
